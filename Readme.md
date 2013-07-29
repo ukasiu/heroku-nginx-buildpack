@@ -14,7 +14,6 @@ support/heroku-buildpack run
 * `setup` - *Removes html and copies conf and logs to builds/nginx.*
 
 *The equivs exist inside of `rake` too which will invoke `support/heroku-buildpack`.*<br>
-*If you use RVM it will add `support/` to the path so you can just do `heroku-buildpack`.*<br>
 *After you have built your binary and uploaded it, update the variable inside of bin/compile.*
 
 ## Using this buildpack as is
