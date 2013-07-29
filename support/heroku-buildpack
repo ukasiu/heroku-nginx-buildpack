@@ -18,7 +18,7 @@ buildpack_root=$PWD
 
 # ------------------------------------------------------------------------------------------------
 
-buildpack_pcre_version=8.32
+buildpack_pcre_version=8.33
 buildpack_pcre_url=ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre
 buildpack_pcre_download=$buildpack_pcre_url/pcre-$buildpack_pcre_version.tar.gz
 
