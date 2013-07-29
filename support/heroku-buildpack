@@ -90,7 +90,7 @@ function buildpack_download()
 function buildpack_build()
 {
   nginx=$(basename ${buildpack_nginx_download%.tar.gz})
-  vulcan build -v \
+  bundle exec vulcan build -v \
     -s $buildpack_root/sources/$nginx \
     -p /app/nginx \
     -c "${buildpack_build_line[*]}" || buildpack_exit "No"
