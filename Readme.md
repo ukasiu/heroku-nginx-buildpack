@@ -1,4 +1,4 @@
-#A buildpack and vulcan builder for Nginx.
+# A Heroku Nginx buildpack & builder
 
 ## Building binaries
 
@@ -13,7 +13,6 @@ support/heroku-buildpack run
 * `run` - *Runs everything in one clean shot for you.*
 * `setup` - *Removes html and copies conf and logs to builds/nginx.*
 
-*The equivs exist inside of `rake` too which will invoke `support/heroku-buildpack`.*<br>
 *After you have built your binary and uploaded it, update the variable inside of bin/compile.*
 
 ## Using this buildpack as is
