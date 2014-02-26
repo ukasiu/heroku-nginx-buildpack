@@ -1,6 +1,6 @@
 # A Heroku Nginx buildpack & builder
 
-_For those of you wondering why the builds are no longer publically available, it's because Heroku no longer supports the Vulcan build system so I can no longer enable cloudflare for those builders and upload the files to their repo._
+_For those of you wondering why the builds are no longer publically available, it's because Heroku no longer supports the Vulcan build system so I can no longer enable cloudflare for those builders and upload the files to their repo.  *In the coming days I will be simply uploading them to my website.*_
 
 ## Building binaries
 
