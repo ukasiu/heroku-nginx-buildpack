@@ -5,8 +5,7 @@
 
 conf_file=/app/nginx/conf/nginx.conf
 if [ -f /app/public/nginx.conf ]
-then
-  conf_file=/app/public/nginx.conf
+  then conf_file=/app/public/nginx.conf
 fi
 
 mv $conf_file /app/nginx/conf/orig.conf

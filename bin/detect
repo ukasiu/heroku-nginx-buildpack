@@ -6,8 +6,6 @@
 # ---------------------------------------------------------------------
 
 if [ ! -f $1/index.html ]
-then
-  echo "No" && exit 1
-else
-  echo "Static" && exit 0
+  then echo "No" && exit 1
+  else echo "Static" && exit 0
 fi
