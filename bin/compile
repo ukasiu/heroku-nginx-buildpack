@@ -11,7 +11,7 @@ set -e
 
 # ---------------------------------------------------------------------
 
-compile_nginx_download=http://dl.envygeeks.com/heroku/heroku-nginx-1.4.2.tar.gz
+compile_nginx_download=https://envygeeks.com/downloads/heroku/nginx-1.4.6.tar.gz
 
 # ---------------------------------------------------------------------
 
